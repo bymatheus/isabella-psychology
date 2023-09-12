@@ -1,0 +1,12 @@
+### MacOS template
+
+# General
+.DS_Store
+
+### VSCode template
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
