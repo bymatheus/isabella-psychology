@@ -1,0 +1,30 @@
+/*=======================================
+-> Helpers
+=======================================*/
+/*=======================================
+-> Colors
+=======================================*/
+/*=======================================
+-> Components
+=======================================*/
+@import url("https://use.typekit.net/sfo6yho.css");
+body {
+  background-color: #f8f8f8;
+}
+
+* {
+  font-family: "stevie-sans", sans-serif;
+}
+
+.navbar {
+  background-color: #fff;
+}
+.navbar-brand img {
+  width: 15rem;
+}
+
+/*=======================================
+-> Layout
+=======================================*/
+
+/*# sourceMappingURL=style.css.map */

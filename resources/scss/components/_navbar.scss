@@ -1,0 +1,11 @@
+.navbar {
+  background: {
+    color: $navbar;
+  }
+
+  &-brand {
+    img {
+      width: 15rem;
+    }
+  }
+}
