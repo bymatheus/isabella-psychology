@@ -1,0 +1,30 @@
+.btn {
+  &--orange {
+    color: $text-light;
+
+    background: {
+      color: $accent-color;
+    }
+
+    &:hover {
+      color: $text-light;
+
+      background: {
+        color: darken($accent-color, 10%);
+      }
+    }
+  }
+
+  &--lg {
+    padding: {
+      top: 1rem;
+      right: 2rem;
+      bottom: 1rem;
+      left: 2rem;
+    }
+  }
+
+  &--text {
+    padding: 0;
+  }
+}
