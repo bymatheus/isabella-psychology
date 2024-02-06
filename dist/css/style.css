@@ -26,7 +26,10 @@ body {
 }
 
 .navbar {
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 0;
 }
 .navbar .navbar-brand {
   width: 3rem;
@@ -37,15 +40,67 @@ body {
 }
 .navbar .navbar-nav .nav-item:last-child {
   background-color: #cb7749;
+  border-radius: 1rem;
   margin-left: 0.5rem;
 }
 .navbar .navbar-nav .nav-item:last-child .nav-link {
+  color: #ffffff;
+  padding-left: 1.3rem;
   padding-top: 1rem;
+  padding-right: 1.3rem;
   padding-bottom: 1rem;
+}
+
+.btn--orange {
+  color: #ffffff;
+  background-color: #cb7749;
+}
+.btn--orange:hover {
+  color: #ffffff;
+  background-color: #af5e32;
+}
+.btn--lg {
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+.btn--text {
+  padding: 0;
 }
 
 /*=======================================
 -> Layout
 =======================================*/
+.header__content__title {
+  line-height: 1;
+  width: fit-content;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+.header__content__title small {
+  font-size: 3rem;
+}
+.header__content__title::after {
+  content: "";
+  display: block;
+  width: 69%;
+  height: 1.5rem;
+  background-color: #6a8c69;
+  margin-top: -1rem;
+  margin-left: auto;
+}
+.header__content__subtitle {
+  margin-bottom: 2rem;
+  max-width: 80%;
+}
+.header__content__btns .btn:last-child {
+  margin-left: 1.5rem;
+}
+.header__image {
+  height: calc(100vh - 134px);
+  display: flex;
+  align-items: center !important;
+}
 
 /*# sourceMappingURL=style.css.map */

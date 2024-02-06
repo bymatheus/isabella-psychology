@@ -1,0 +1,54 @@
+.header {
+  &__content {
+    &__title {
+      line-height: 1;
+      width: fit-content;
+
+      font: {
+        size: 4rem;
+      }
+
+      margin: {
+        bottom: 1.5rem;
+      }
+
+      small {
+        font: {
+          size: 3rem;
+        }
+      }
+
+      &::after {
+        content: "";
+        display: block;
+        width: 69%;
+        height: 1.5rem;
+        background-color: $primary-color;
+        margin-top: -1rem;
+        margin-left: auto;
+      }
+    }
+
+    &__subtitle {
+      margin: {
+        bottom: 2rem;
+      }
+
+      max-width: 80%;
+    }
+
+    &__btns {
+      .btn {
+        &:last-child {
+          margin-left: 1.5rem;
+        }
+      }
+    }
+  }
+
+  &__image {
+    height: calc(100vh - 134px);
+    display: flex;
+    align-items: center !important;
+  }
+}
