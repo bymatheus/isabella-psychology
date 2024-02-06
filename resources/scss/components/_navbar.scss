@@ -1,0 +1,39 @@
+.navbar {
+  padding: 2rem;
+
+  .navbar {
+    &-brand {
+      width: 3rem;
+    }
+
+    &-nav {
+      .nav {
+        &-link {
+          padding: {
+            right: 1rem;
+            left: 1rem;
+          }
+        }
+
+        &-item {
+          &:last-child {
+            background: {
+              color: $accent-color;
+            }
+
+            margin: {
+              left: 0.5rem;
+            }
+
+            .nav-link {
+              padding: {
+                top: 1rem;
+                bottom: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

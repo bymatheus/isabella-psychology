@@ -21,6 +21,29 @@ h6 {
   font-family: "stevie-sans", sans-serif;
 }
 
+body {
+  background-color: #f1f1f0;
+}
+
+.navbar {
+  padding: 2rem;
+}
+.navbar .navbar-brand {
+  width: 3rem;
+}
+.navbar .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.navbar .navbar-nav .nav-item:last-child {
+  background-color: #cb7749;
+  margin-left: 0.5rem;
+}
+.navbar .navbar-nav .nav-item:last-child .nav-link {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 /*=======================================
 -> Layout
 =======================================*/
