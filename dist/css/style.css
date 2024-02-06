@@ -7,20 +7,18 @@
 /*=======================================
 -> Components
 =======================================*/
-@import url("https://use.typekit.net/sfo6yho.css");
-body {
-  background-color: #f8f8f8;
-}
-
+@import url("https://use.typekit.net/zny6fgt.css");
 * {
-  font-family: "stevie-sans", sans-serif;
+  font-family: "router", sans-serif;
 }
 
-.navbar {
-  background-color: #fff;
-}
-.navbar-brand img {
-  width: 15rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "stevie-sans", sans-serif;
 }
 
 /*=======================================
