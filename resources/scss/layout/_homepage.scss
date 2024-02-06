@@ -52,3 +52,75 @@
     align-items: center !important;
   }
 }
+
+.theme {
+  max-width: 85vw;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; // Oculta a barra de rolagem no Firefox
+  scrollbar-color: transparent transparent; // Tentativa de tornar a barra transparente no Firefox, mas a propriedade relevante aqui é `scrollbar-width: none`
+
+  padding: {
+    bottom: 2rem;
+  }
+
+  margin: {
+    left: auto;
+    right: 0;
+  }
+
+  .row {
+    flex-wrap: nowrap;
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &-card {
+    width: fit-content;
+    padding: 0.5rem;
+
+    background: {
+      color: #dadada;
+    }
+
+    border: {
+      radius: 0.7rem;
+    }
+
+    margin: {
+      right: 2rem;
+    }
+
+    &__icon {
+      padding: 1.5rem 1.7rem;
+
+      border: {
+        radius: 0.7rem;
+      }
+
+      background: {
+        color: #c3c3c3;
+      }
+    }
+
+    &__content {
+      min-width: 10rem;
+
+      padding: {
+        left: 0.5rem;
+        right: 1rem;
+      }
+
+      &__title {
+        margin: 0;
+
+        font: {
+          size: 0.9rem;
+        }
+      }
+    }
+  }
+}

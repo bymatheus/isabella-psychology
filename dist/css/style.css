@@ -103,4 +103,43 @@ body {
   align-items: center !important;
 }
 
+.theme {
+  max-width: 85vw;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+  padding-bottom: 2rem;
+  margin-left: auto;
+  margin-right: 0;
+}
+.theme .row {
+  flex-wrap: nowrap;
+}
+.theme::-webkit-scrollbar {
+  display: none;
+}
+.theme-card {
+  width: fit-content;
+  padding: 0.5rem;
+  background-color: #dadada;
+  border-radius: 0.7rem;
+  margin-right: 2rem;
+}
+.theme-card__icon {
+  padding: 1.5rem 1.7rem;
+  border-radius: 0.7rem;
+  background-color: #c3c3c3;
+}
+.theme-card__content {
+  min-width: 10rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+.theme-card__content__title {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
 /*# sourceMappingURL=style.css.map */
