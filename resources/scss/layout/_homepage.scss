@@ -5,7 +5,8 @@
       width: fit-content;
 
       font: {
-        size: 4rem;
+        size: 5rem;
+        weight: 600;
       }
 
       margin: {
@@ -14,18 +15,18 @@
 
       small {
         font: {
-          size: 3rem;
+          size: 3.5rem;
+          weight: 500;
         }
       }
 
       &::after {
         content: "";
         display: block;
-        width: 69%;
+        width: 66%;
         height: 1.5rem;
         background-color: $primary-color;
         margin-top: -1rem;
-        margin-left: auto;
       }
     }
 

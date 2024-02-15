@@ -85,20 +85,21 @@ body {
 .header__content__title {
   line-height: 1;
   width: fit-content;
-  font-size: 4rem;
+  font-size: 5rem;
+  font-weight: 600;
   margin-bottom: 1.5rem;
 }
 .header__content__title small {
-  font-size: 3rem;
+  font-size: 3.5rem;
+  font-weight: 500;
 }
 .header__content__title::after {
   content: "";
   display: block;
-  width: 69%;
+  width: 66%;
   height: 1.5rem;
   background-color: #6a8c69;
   margin-top: -1rem;
-  margin-left: auto;
 }
 .header__content__subtitle {
   margin-bottom: 2rem;
