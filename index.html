@@ -35,10 +35,10 @@
 
     <title>Isabella Gonçalves | Psicóloga Clínica & Redutora de Danos</title>
   </head>
-  <body>
+  <body id="topo">
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#topo">
           <img src="./dist/images/logo-black.svg" alt="Isabella Goncalves" />
         </a>
         <button
@@ -55,12 +55,18 @@
         <div class="collapse navbar-collapse" id="mainNavbar">
           <ul class="navbar-nav align-items-center ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#" title="Início"
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="#topo"
+                title="Início"
                 >Início</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" title="Sobre mim">Sobre mim</a>
+              <a class="nav-link" href="#sobre-mim" title="Sobre mim"
+                >Sobre mim</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" title="Por que psicologo?"
@@ -73,7 +79,11 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" title="Entre em contato"
+              <a
+                class="nav-link"
+                href="https://wa.me/5511971420322?text=Olá, gostaria de mais informações sobre a psicoterapia."
+                target="_blank"
+                title="Entre em contato"
                 >Entre em contato</a
               >
             </li>
@@ -335,7 +345,7 @@
       </div>
     </section>
 
-    <article class="container about section">
+    <article class="container about section" id="sobre-mim">
       <div class="row align-items-center">
         <section class="col-6 about__content">
           <h2 class="section__title">
@@ -362,9 +372,10 @@
           </p>
 
           <a
-            href="#"
+            href="https://wa.me/5511971420322?text=Olá, gostaria de mais informações sobre a psicoterapia."
             class="btn btn--text btn--text--orange btn--svg"
             title="Me chame no WhatsApp"
+            target="_blank"
           >
             Me chame no WhatsApp
             <svg
