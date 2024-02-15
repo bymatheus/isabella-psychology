@@ -1,4 +1,8 @@
 .btn {
+  &:hover {
+    cursor: pointer;
+  }
+
   &--orange {
     color: $text-light;
 
@@ -26,5 +30,19 @@
 
   &--text {
     padding: 0;
+
+    &--orange {
+      color: $accent-color;
+    }
+  }
+
+  &--svg {
+    &:hover {
+      svg {
+        transition: 0.2s;
+
+        margin-left: 0.5rem;
+      }
+    }
   }
 }

@@ -124,3 +124,43 @@
     }
   }
 }
+
+.section {
+  .section {
+    &__title {
+      line-height: 1;
+
+      font: {
+        size: 4rem;
+        weight: 600;
+      }
+
+      margin: {
+        bottom: 3rem;
+      }
+    }
+
+    &__paragraph {
+      margin: {
+        bottom: 2rem;
+      }
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+}
+
+.about {
+  padding: {
+    top: 7rem;
+    bottom: 7rem;
+  }
+
+  &__content {
+    padding: {
+      right: 6rem;
+    }
+  }
+}

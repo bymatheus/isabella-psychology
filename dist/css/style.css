@@ -51,6 +51,9 @@ body {
   padding-bottom: 1rem;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
 .btn--orange {
   color: #ffffff;
   background-color: #cb7749;
@@ -67,6 +70,13 @@ body {
 }
 .btn--text {
   padding: 0;
+}
+.btn--text--orange {
+  color: #cb7749;
+}
+.btn--svg:hover svg {
+  transition: 0.2s;
+  margin-left: 0.5rem;
 }
 
 /*=======================================
@@ -140,6 +150,27 @@ body {
 .theme-card__content__title {
   margin: 0;
   font-size: 0.9rem;
+}
+
+.section .section__title {
+  line-height: 1;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.section .section__paragraph {
+  margin-bottom: 2rem;
+}
+.section .section__paragraph:last-child {
+  margin: 0;
+}
+
+.about {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.about__content {
+  padding-right: 6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
