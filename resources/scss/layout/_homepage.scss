@@ -165,3 +165,75 @@
     }
   }
 }
+
+.faq {
+  padding: {
+    top: 2rem;
+    bottom: 7rem;
+  }
+
+  &__accordion {
+    padding: {
+      right: 3rem;
+    }
+
+    .accordion {
+      &-item {
+        margin: {
+          bottom: 1rem;
+        }
+
+        background: {
+          color: #e3e3e3;
+        }
+
+        border: {
+          radius: 1.8em;
+        }
+
+        &:last-child {
+          margin: {
+            bottom: 0;
+          }
+        }
+      }
+
+      &-button {
+        padding: 2rem;
+
+        background: {
+          color: transparent;
+        }
+
+        &:not(.collapsed) {
+          color: $accent-color;
+        }
+      }
+
+      &-body {
+        padding: {
+          top: 0;
+          left: 2rem;
+          right: 2rem;
+          bottom: 2rem;
+        }
+      }
+    }
+  }
+
+  &__content {
+    padding: {
+      left: 3rem;
+    }
+
+    .section {
+      &__title {
+        text-align: right;
+      }
+
+      &__paragraph {
+        text-align: right;
+      }
+    }
+  }
+}

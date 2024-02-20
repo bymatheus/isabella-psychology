@@ -174,4 +174,42 @@ body {
   padding-right: 6rem;
 }
 
+.faq {
+  padding-top: 2rem;
+  padding-bottom: 7rem;
+}
+.faq__accordion {
+  padding-right: 3rem;
+}
+.faq__accordion .accordion-item {
+  margin-bottom: 1rem;
+  background-color: #e3e3e3;
+  border-radius: 1.8em;
+}
+.faq__accordion .accordion-item:last-child {
+  margin-bottom: 0;
+}
+.faq__accordion .accordion-button {
+  padding: 2rem;
+  background-color: transparent;
+}
+.faq__accordion .accordion-button:not(.collapsed) {
+  color: #cb7749;
+}
+.faq__accordion .accordion-body {
+  padding-top: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+.faq__content {
+  padding-left: 3rem;
+}
+.faq__content .section__title {
+  text-align: right;
+}
+.faq__content .section__paragraph {
+  text-align: right;
+}
+
 /*# sourceMappingURL=style.css.map */
