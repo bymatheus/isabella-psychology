@@ -173,6 +173,9 @@ body {
 .about__content {
   padding-right: 6rem;
 }
+.about__image img {
+  border-radius: 2rem;
+}
 
 .faq {
   padding-top: 2rem;

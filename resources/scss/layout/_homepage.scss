@@ -164,6 +164,14 @@
       right: 6rem;
     }
   }
+
+  &__image {
+    img {
+      border: {
+        radius: 2rem;
+      }
+    }
+  }
 }
 
 .faq {
